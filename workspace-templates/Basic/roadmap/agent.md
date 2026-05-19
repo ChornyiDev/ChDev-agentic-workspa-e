@@ -1,5 +1,10 @@
 # Milestone Execution Rules
 
+================================================================================
+PART 1: IMMUTABLE RULES (CORE INSTRUCTIONS)
+⚠️ SYSTEM NOTICE FOR THE AI AGENT: DO NOT MODIFY, DELETE, OR OVERRIDE THIS SECTION.
+================================================================================
+
 **Context:** A "`Milestone` is not just a collection of code commits or a Jira ticket. It is a complete, viable unit of business value that solves a specific client problem or improves the system architecture. These milestone documents serve as the single source of truth for generating our final "Project Autopsy" case studies.
 
 ## Agent Operational Rules
@@ -9,3 +14,11 @@
 3. **Live Autopsy Logging (CRITICAL):** Act as a live technical logger. Whenever you encounter and solve a technical hurdle (e.g., bypassing API token limits, resolving complex data transformations, fixing rendering issues), immediately log the exact challenge and your applied technical solution in the "Autopsy" section.
 4. **Anti-Hallucination:** NEVER invent or assume "Business Value" or "ROI" metrics. If these fields are empty in the milestone document, explicitly ask the user for the business context before proceeding.
 5. **Completion Guardrail:** You are strictly prohibited from marking a milestone as "Completed" unless the "Autopsy" section contains at least one documented technical challenge/solution, and all tasks in the checklist are marked `[x]`.
+
+
+================================================================================
+PART 2: MUTABLE AGENT WORKSPACE (DYNAMIC CONTEXT & NOTES)
+✍️ SYSTEM NOTICE FOR THE AI AGENT: YOU ARE ALLOWED TO WRITE, UPDATE, AND LOG YOUR DATA HERE.
+================================================================================
+
+### 2.1 SECTION EXAMPLE

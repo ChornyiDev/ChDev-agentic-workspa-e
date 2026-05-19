@@ -40,8 +40,15 @@ root/
 │   ├── project/                       # High-level product overview and architecture maps
 │   └── tech-stack/                    # Dart/Flutter requirements and library whitelists
 ├── prototypes/                        # High-fidelity HTML/CSS interactive mockups
+│   ├── agent.md                       # Rules for working with prototypes
+│   ├── dsign-system-showcase-specs.md # Specifications for the development of an HTML design system
+│   └── style.css                      # Style sheet for all prototypes
 ├── raw/                               # Raw inbox for unstructured assets/chat logs
 ├── roadmap/                           # Milestones and sprint execution plans
+│   ├── 000_Milestone_template.md      # Template for milestone files
+│   ├── agent.md                       # Guidelines for working with roadmap milestones
+│   ├── README.md                      # Master Roadmap of the entire project
+│   └── XXX_Milestone_Name.md          # Step-by-step milestone tracking files
 ├── scripts/                           # CLI utilities, seeds, and migrations
 ├── README.md                          # Human onboarding documentation
 ├── agent.md                           # Root AI context file

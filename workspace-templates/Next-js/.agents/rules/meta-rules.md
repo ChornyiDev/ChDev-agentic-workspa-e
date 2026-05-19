@@ -38,6 +38,9 @@ root/
 │   └── README.md                      # High-level overview of all documentation
 ├── presentations/                     # Pitch decks, slides, and project showcases
 ├── prototypes/                        # High-fidelity HTML/CSS static UI mockups
+│   ├── agent.md                       # Rules for working with prototypes
+│   ├── dsign-system-showcase-specs.md # Specifications for the development of an HTML design system
+│   └── style.css                      # Style sheet for all prototypes
 ├── raw/                               # Unstructured inbox for user dumps (chats, raw docs, ideas)
 ├── roadmap/                           # Strategic planning files and execution milestones
 │   ├── 000_Milestone_template.md      # Template for milestone files

@@ -38,6 +38,9 @@ root/
 │   ├── project/                       # High-level product overview and architecture maps
 │   └── tech-stack/                    # Whitelists, frameworks, and packages guides
 ├── prototypes/                        # High-fidelity HTML/CSS interactive mockups
+│   ├── agent.md                       # Rules for working with prototypes
+│   ├── dsign-system-showcase-specs.md # Specifications for the development of an HTML design system
+│   └── style.css                      # Style sheet for all prototypes
 ├── raw/                               # Raw inbox for unstructured assets/chat logs
 ├── roadmap/                           # Milestones and sprint execution plans
 ├── scripts/                           # CLI utilities, seeds, and migrations
