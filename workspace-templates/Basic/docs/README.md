@@ -14,6 +14,8 @@ Welcome to the central technical and product documentation repository for **{{pr
 | [**Features**](file://./features/) | Detailed technical specifications for individual system modules. |
 | [**Integrations & APIs**](file://./integrations/) | 3rd-party APIs, webhooks, SDK setups, and external data pipelines. |
 | [**Tech Stack**](file://./tech-stack/) | Reference guides for packages, libraries, frameworks, and runtimes. |
+| [**FlutterFlow**](file://./flutterflow/) | FF naming conventions and Custom Code guidelines (FlutterFlow projects only). |
+| [**Prompts**](file://./prompts/) | Optional prompt library (Next.js projects only). |
 
 ---
 [⬅️ Back to Main README](file://../README.md)

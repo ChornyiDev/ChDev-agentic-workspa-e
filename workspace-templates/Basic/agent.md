@@ -12,10 +12,12 @@ Welcome! This is the primary context hub for all AI interactions within **{{proj
 ---
 
 ## 2. 💻 Tech Stack & Environment
+Fill this section from your active stack file: `.agents/rules/stack-nextjs.md` or `.agents/rules/stack-flutterflow.md`.
+
 * **Frontend:** [Framework, UI kits, design guidelines]
 * **Backend:** [Runtime, serverless, database drivers]
-* **Database:** [PostgreSQL/MongoDB/Firebase, caching layers]
-* **Hosting:** [Vercel, Cloudflare, AWS]
+* **Database:** [PostgreSQL / Firestore / other]
+* **Hosting:** [Vercel, Cloudflare, Firebase, etc.]
 
 ---
 

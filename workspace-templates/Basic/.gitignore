@@ -1,0 +1,171 @@
+# =============================================================================
+# Workspace template — ignore generated, local, and secret artifacts.
+# Safe for Next.js, FlutterFlow/Firebase, and docs-only projects.
+# =============================================================================
+
+# --- Operating systems ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*~
+
+# --- Environment & secrets (never commit) ---
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+serviceAccountKey.json
+firebase-adminsdk*.json
+.secrets
+.secret*
+
+# --- Node / JavaScript / TypeScript ---
+node_modules/
+jspm_packages/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+package-lock.json.bak
+
+# --- Next.js / React build ---
+.next/
+out/
+build/
+dist/
+.vercel
+.turbo
+*.tsbuildinfo
+next-env.d.ts
+
+# --- Cloudflare ---
+.wrangler/
+.dev.vars
+.mf/
+
+# --- Firebase / FlutterFlow local tooling ---
+.firebase/
+.firebaserc.local
+firebase-debug.log*
+firestore-debug.log*
+ui-debug.log*
+database-debug.log*
+pubsub-debug.log*
+storage-debug.log*
+functions-debug.log*
+.runtimeconfig.json
+
+# --- Dart / Flutter (custom_code, local experiments) ---
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# --- Python (scripts, Cloud Functions helpers) ---
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.eggs/
+dist/
+*.egg
+
+# --- Testing & coverage ---
+coverage/
+.nyc_output/
+*.lcov
+test-results/
+playwright-report/
+playwright/.cache/
+blob-report/
+
+# --- Logs & caches ---
+*.log
+logs/
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+*.pid
+*.seed
+*.pid.lock
+
+# --- IDEs & editors ---
+.idea/
+*.iml
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+.project
+.classpath
+.settings/
+
+# --- Cursor (local state only; keep .agents/ and rules in repo) ---
+.cursor/plans/
+.cursor/projects/
+.cursor/mcp.json
+
+# --- Docker & infra (optional local) ---
+.docker/
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+*.tfvars
+!*.tfvars.example
+
+# --- Archives & large generated assets ---
+/presentations/
+*.pptx
+*.key
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# --- Misc local-only ---
+tmp/
+temp/
+.temp/
+*.local
+.local/
+uploads/
+downloads/
+scratch/

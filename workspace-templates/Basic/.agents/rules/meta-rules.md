@@ -24,19 +24,27 @@ This document is the **Single Source of Truth (SSOT)** for AI agent behavior, pe
 ---
 
 ## 2. 🗺️ Universal Workspace Structure
-All workspaces adhere to a unified directory structure designed for maximum separation of concerns and clear AI context injection:
+All workspaces adhere to a unified directory structure designed for maximum separation of concerns and clear AI context injection.
+
+**Stack-specific rules** live in separate files (enable one after setup; delete the other):
+* [stack-nextjs.md](./stack-nextjs.md) — Next.js, Tailwind v4, Neon, Stack Auth
+* [stack-flutterflow.md](./stack-flutterflow.md) — FlutterFlow, Firebase, Custom Dart
 
 ```text
 root/
 ├── archive/                           # Deprecated elements and legacy history
 ├── assets/                            # Static media assets, SVGs, and brand icons
-├── docs/                              # Product specifications and technical documentation
-│   ├── database/                      # Database schemas, rules, and migrations
+├── cloud_functions/                   # [FlutterFlow] Firebase Cloud Functions
+├── custom_code/                       # [FlutterFlow] Custom Dart actions/functions/widgets
+├── docs/
+│   ├── database/                      # Schemas, rules, migrations (stack-specific)
 │   ├── design/                        # Design systems and color palettes
 │   ├── features/                      # Feature specifications and user flows
+│   ├── flutterflow/                   # [FlutterFlow] FF naming & custom code guides
 │   ├── integrations/                  # Webhook specifications and API keys
 │   ├── project/                       # High-level product overview and architecture maps
-│   └── tech-stack/                    # Whitelists, frameworks, and packages guides
+│   ├── prompts/                       # [Next.js] Optional prompt library
+│   └── tech-stack/                    # Whitelists, frameworks, and package guides
 ├── prototypes/                        # High-fidelity HTML/CSS interactive mockups
 │   ├── agent.md                       # Rules for working with prototypes
 │   ├── dsign-system-showcase-specs.md # Specifications for the development of an HTML design system
