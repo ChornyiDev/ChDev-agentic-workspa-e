@@ -13,3 +13,8 @@ Desktop.ini
 *.swp
 *.swo
 *.tmp
+
+# Cursor MCP (secrets)
+.cursor/mcp.json
+mcp.json
+.env

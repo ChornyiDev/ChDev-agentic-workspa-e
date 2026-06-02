@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "n8n-mcp": {
+      "type": "http",
+      "url": "https://n8n.chornyi.win/mcp-server/http",
+      "headers": {
+        "Authorization": "Bearer ${env:N8N_MCP_TOKEN}"
+      }
+    }
+  }
+}
