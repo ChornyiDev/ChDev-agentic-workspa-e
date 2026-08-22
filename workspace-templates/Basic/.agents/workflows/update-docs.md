@@ -1,5 +1,5 @@
 ---
-description: 
+description: Documentation Synchronization
 ---
 
 # Workflow: Documentation Synchronization (/update-docs)

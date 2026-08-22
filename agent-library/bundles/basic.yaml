@@ -1,0 +1,33 @@
+schema_version: 1
+name: basic
+
+common:
+  skills: []
+  workflows: []
+
+profiles:
+  nextjs:
+    skills: []
+    workflows:
+      - check-ui
+      - deploy
+      - get-started
+      - test-and-fix
+      - update-docs
+
+  flutterflow:
+    skills: []
+    workflows: []
+
+optional:
+  skills:
+    - brainstorming
+    - design-system-documentation
+    - grill-me
+    - humanizer
+    - presentation-deploy
+    - skill-creator
+    - system-prompt-generator
+    - ui-ux-pro-max
+  workflows:
+    - harvest-telemetry

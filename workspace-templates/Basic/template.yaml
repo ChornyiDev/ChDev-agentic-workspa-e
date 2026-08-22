@@ -1,0 +1,14 @@
+schema_version: 1
+name: Basic
+version: 0.1.0
+
+agent_library:
+  source: ../../agent-library
+  bundle: basic
+
+initialization:
+  active_profile: required
+  supported_profiles:
+    - nextjs
+    - flutterflow
+

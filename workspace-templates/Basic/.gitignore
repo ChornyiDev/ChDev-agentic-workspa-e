@@ -136,10 +136,34 @@ logs/
 .classpath
 .settings/
 
-# --- Cursor (local state only; keep .agents/ and rules in repo) ---
+# --- Cursor (local state only; keep reusable .agents content in repo) ---
 .cursor/plans/
 .cursor/projects/
 .cursor/mcp.json
+
+# --- Agent-local state ---
+# Keep reusable skills and workflows in the repository, but ignore local caches,
+# generated indexes, and machine-specific agent state.
+.agents/cache/
+.agents/tmp/
+.agents/local/
+graphify-out/
+.graphify/
+
+# --- Local MCP configs (may contain API keys or tokens) ---
+# Agents use different filenames and directories. Keep sanitized *.example.*
+# files only; add any additional agent-specific config path explicitly.
+**/.mcp.json
+**/mcp.json
+**/mcp_config.json
+**/mcp-config.json
+**/mcp.config.json
+**/mcp.local.json
+**/mcp.local.toml
+**/mcp.local.yaml
+**/mcp.local.yml
+!**/mcp.example.json
+!**/mcp_config.example.json
 
 # --- Docker & infra (optional local) ---
 .docker/

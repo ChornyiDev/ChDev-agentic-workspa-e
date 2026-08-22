@@ -8,14 +8,14 @@ Welcome to the central technical and product documentation repository for **{{pr
 
 | Section | Description |
 | :--- | :--- |
-| [**Project Overview**](file://./project/) | Business requirements, high-level architecture maps, and core specifications. |
-| [**Database**](file://./database/) | Data schemas, migrations, security policies, and ORM configurations. |
-| [**Design System**](file://./design/) | UI/UX tokens, typography, HSL colors, and layout standards. |
-| [**Features**](file://./features/) | Detailed technical specifications for individual system modules. |
-| [**Integrations & APIs**](file://./integrations/) | 3rd-party APIs, webhooks, SDK setups, and external data pipelines. |
-| [**Tech Stack**](file://./tech-stack/) | Reference guides for packages, libraries, frameworks, and runtimes. |
-| [**FlutterFlow**](file://./flutterflow/) | FF naming conventions and Custom Code guidelines (FlutterFlow projects only). |
-| [**Prompts**](file://./prompts/) | Optional prompt library (Next.js projects only). |
+| [**Project Overview**](./project/) | High-level architecture maps and project documentation. |
+| [**Database**](./database/) | Data schemas, migrations, security policies, and ORM configurations. |
+| [**Design System**](./design/) | UI/UX tokens, typography, colors, and layout standards. |
+| [**Integrations & APIs**](./integrations/) | Third-party APIs, webhooks, SDK setups, and external data pipelines. |
+| [**Tech Stack**](./tech-stack/) | Reference guides for packages, libraries, frameworks, and runtimes. |
+| [**FlutterFlow**](./flutterflow/) | FlutterFlow naming conventions and custom-code references (FlutterFlow projects only). |
+| [**Prompts**](./prompts/) | Optional prompt library (Next.js projects only). |
+| [**Product Specifications**](../roadmap/specs/) | Human-readable product, module, feature, flow, and business-rule specifications. |
 
 ---
-[⬅️ Back to Main README](file://../README.md)
+[⬅️ Back to Main README](../README.md)

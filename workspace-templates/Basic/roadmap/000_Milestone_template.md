@@ -3,6 +3,16 @@
 **Status:** ⚪ Not Started | 🟡 In Progress | 🟢 Completed  
 **Dates:** [Start Date] - [Target End Date]  
 
+## Related Specifications
+
+- [SPEC-XXX: Specification Name](./specs/SPEC-XXX_name.md)
+  - **Coverage:** [Full | Partial | Sections X–Y]
+  - **Delivery:** [Planned | In Progress | Partial | Delivered]
+
+If this is an internal infrastructure milestone with no product requirement, replace the list with:
+
+> Not applicable — [explain why no product specification is required].
+
 ## 1. Context & Business Value
 *Why are we building this?*
 - **Objective:** [e.g., Automate client onboarding, replace manual Airtable entry]
@@ -43,4 +53,5 @@
 ## 6. Milestone Outcome & Deliverables
 *To be filled upon completion.*
 - **Final Result:** [What was actually delivered vs. planned]
+- **Specification Coverage:** [What approved specification scope was delivered, deferred, or changed]
 - **Artifacts:** [Links to PRs, specific files, or updated architecture diagrams]
