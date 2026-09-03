@@ -8,7 +8,8 @@ Human-readable product requirements describing what should be built and why.
 
 - `000_SPEC_template.md` is the source template for new specifications.
 - `README.md` is the specification catalog and status index.
-- `SPEC-XXX_name.md` files describe products, modules, features, flows, or business rules.
+- `SPEC-NNN_name.md` files describe products, modules, features, flows, or business rules.
+- A specification number matches its delivery milestone number. Multiple specifications for one milestone use sub-numbers such as `SPEC-014.1` and `SPEC-014.2`.
 - Specifications and milestones maintain bidirectional delivery links.
 
 ## Current State
@@ -24,4 +25,3 @@ The base template contains the specification template and an empty catalog.
 ## Known Issues
 
 - Bidirectional links are maintained manually until workspace initialization and validation tooling is implemented.
-

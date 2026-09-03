@@ -1,13 +1,15 @@
-# Milestone [XX]: [Milestone Name]
+# Milestone [NNN]: [Milestone Name]
 
 **Status:** ⚪ Not Started | 🟡 In Progress | 🟢 Completed  
 **Dates:** [Start Date] - [Target End Date]  
 
 ## Related Specifications
 
-- [SPEC-XXX: Specification Name](./specs/SPEC-XXX_name.md)
+- [SPEC-NNN: Specification Name](./specs/SPEC-NNN_name.md)
   - **Coverage:** [Full | Partial | Sections X–Y]
   - **Delivery:** [Planned | In Progress | Partial | Delivered]
+
+For additional specifications in this milestone, use matching sub-numbers such as `SPEC-NNN.1` and `SPEC-NNN.2`.
 
 If this is an internal infrastructure milestone with no product requirement, replace the list with:
 

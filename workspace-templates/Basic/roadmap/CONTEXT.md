@@ -10,7 +10,7 @@ Milestones represent complete units of product or architectural value and provid
 - `README.md` is the milestone index and status map.
 - `specs/` contains the human-readable product specification catalog.
 - Numbered milestone files contain planning, execution state, autopsy, and outcomes.
-- Milestones and specifications maintain bidirectional delivery links.
+- Milestones and specifications maintain bidirectional delivery links. A specification ID matches its delivery milestone ID; multiple specifications use decimal sub-numbers such as `SPEC-014.1`.
 
 ## Current State
 

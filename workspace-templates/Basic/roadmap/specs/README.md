@@ -8,7 +8,12 @@ in milestones or the relevant technical documentation.
 
 ## Specifications
 
-| ID | Specification | Type | Requirement Status | Delivery Status | Parent | Milestones |
+### Numbering
+
+- A specification ID must match its delivery milestone number: `Milestone 014` → `SPEC-014`.
+- If a milestone has multiple specifications, use sub-numbers for all of them: `SPEC-014.1`, `SPEC-014.2`, and so on.
+
+| ID | Specification | Type | Requirement Status | Delivery Status | Parent | Milestone |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | — | No specifications created | — | — | — | — | Copy `000_SPEC_template.md` to create the first specification. |
 
@@ -32,6 +37,6 @@ in milestones or the relevant technical documentation.
 ## Relationships
 
 - Every specification is listed in this catalog.
-- Every specification links to all milestones that deliver it.
-- Every related milestone links back to the specification.
+- Every specification links to its single delivery milestone.
+- Every milestone links back to all specifications it delivers.
 - Parent and related specification links are maintained in both documents when applicable.

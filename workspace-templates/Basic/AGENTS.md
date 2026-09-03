@@ -240,16 +240,16 @@ Use this profile only when `{{active_profile}}` is `flutterflow`.
 - `roadmap/specs/` contains human-readable product requirements and is the source of truth for **what** is being built and **why**.
 - Specifications must avoid code, file paths, API payloads, database schemas, framework choices, and engineering task lists.
 - Use `roadmap/specs/000_SPEC_template.md` to create a specification.
-- Use globally unique sequential identifiers such as `SPEC-001`.
+- A specification belongs to exactly one delivery milestone and its identifier must use that milestone's zero-padded number: `Milestone 014` uses `SPEC-014`.
+- If one milestone has multiple specifications, use a decimal sub-number for every specification in that milestone: `SPEC-014.1`, `SPEC-014.2`, and so on. Do not use a bare `SPEC-014` when the milestone has more than one specification.
 - Supported specification types are Product, Module, Feature, Flow, and Business Rule.
 - Keep requirement status separate from delivery status.
 - Requirement statuses are Draft, Review, Approved, and Superseded.
 - Delivery statuses are Not Planned, Planned, In Progress, Partial, and Delivered.
 - Every specification must be listed in `roadmap/specs/README.md`.
-- A specification may relate to multiple milestones, and a milestone may implement multiple specifications.
-- Every specification must link to all milestones that deliver it, including coverage and delivery status.
+- Every specification must link to its single delivery milestone, including coverage and delivery status.
 - Every milestone must link back to all specifications it implements.
-- Update both sides of a specification–milestone relationship in the same change.
+- Update both sides of the specification–milestone relationship in the same change.
 - Never duplicate the complete specification inside a milestone; summarize the delivery scope and link to the canonical specification.
 
 ### Milestones

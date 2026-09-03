@@ -1,4 +1,4 @@
-# SPEC-[XXX]: [Specification Name]
+# SPEC-[NNN]: [Specification Name]
 
 ## Metadata
 
@@ -6,7 +6,8 @@
 - **Requirement Status:** Draft | Review | Approved | Superseded
 - **Delivery Status:** Not Planned | Planned | In Progress | Partial | Delivered
 - **Owner:** [Name or role]
-- **Parent Specification:** None | [SPEC-XXX](./SPEC-XXX_name.md)
+- **Parent Specification:** None | [SPEC-NNN](./SPEC-NNN_name.md) | [SPEC-NNN.X](./SPEC-NNN.X_name.md)
+- **Delivery Milestone:** [Milestone NNN: Milestone Name](../NNN_Milestone_name.md)
 - **Created:** YYYY-MM-DD
 - **Last Updated:** YYYY-MM-DD
 
@@ -62,13 +63,17 @@
 
 - None
 
-## 11. Delivery
+## 11. Delivery Milestone
 
-- No milestones assigned.
+- [Milestone NNN: Milestone Name](../NNN_Milestone_name.md)
+  - **Coverage:** [Full | Partial | Sections X–Y]
+  - **Delivery:** [Planned | In Progress | Partial | Delivered]
+
+Use the milestone number in this specification ID. If that milestone has multiple
+specifications, use a sub-number for every one of them: `SPEC-NNN.1`, `SPEC-NNN.2`, and so on.
 
 ## 12. Change History
 
 | Date | Change | Author |
 | :--- | :--- | :--- |
 | YYYY-MM-DD | Initial draft | [Name] |
-

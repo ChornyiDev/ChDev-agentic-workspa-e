@@ -144,9 +144,7 @@ logs/
 # --- Agent-local state ---
 # Keep reusable skills and workflows in the repository, but ignore local caches,
 # generated indexes, and machine-specific agent state.
-.agents/cache/
-.agents/tmp/
-.agents/local/
+.agents/
 graphify-out/
 .graphify/
 
