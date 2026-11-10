@@ -3,7 +3,9 @@ name: basic
 
 common:
   skills: []
-  workflows: []
+  workflows:
+    - resume-session
+    - save-session
 
 profiles:
   nextjs:

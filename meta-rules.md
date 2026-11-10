@@ -39,7 +39,7 @@ Keep workspace instructions aligned to this standard for cross-IDE and cross-age
 ## 3. Workspace Structure (Next.js project)
 ```text
 root/
-├── .agents/workflows/     # deploy, check-ui, test-and-fix, update-docs, get-started
+├── .agents/workflows/     # deploy, check-ui, test-and-fix, update-docs, get-started, save-session, resume-session
 ├── archive/               # Deprecated / legacy (do not hard-delete history)
 ├── assets/                # Static media, icons, brand assets
 ├── docs/                  # Product & technical SSOT
@@ -66,6 +66,7 @@ root/
 ├── web/                   # Next.js app (App Router) — all app code lives here
 ├── agent.md               # Root AI context
 ├── user_tasks.md          # User-only blockers & delegated tasks
+├── SESSION.md             # Active agent session handoff & state
 └── README.md
 ```
 

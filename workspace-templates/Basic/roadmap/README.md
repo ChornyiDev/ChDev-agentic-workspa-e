@@ -14,7 +14,7 @@ Specification IDs match their delivery milestone IDs: `Milestone 014` → `SPEC-
 
 | ID | Milestone Name | Status | Goal | Specifications |
 | :--- | :--- | :--- | :--- | :--- |
-| — | No milestones created | — | Copy `000_Milestone_template.md` to create the first milestone. | — |
+| — | No milestones created |  🔴 Pending | Copy `000_Milestone_template.md` to create the first milestone. | — |
 
 ---
 

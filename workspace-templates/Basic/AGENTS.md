@@ -90,6 +90,7 @@ root/
 │   └── CONTEXT.md
 ├── AGENTS.md                    # single global rules file
 ├── README.md                    # human onboarding
+├── SESSION.md                   # active agent session handoff & state (optional/transient)
 └── user_tasks.md                # human-only actions and blockers
 ```
 
@@ -321,7 +322,7 @@ Use this profile only when `{{active_profile}}` is `flutterflow`.
 ## 13. Skills and Workflows
 
 - `.agents/skills/` contains reusable domain capabilities with their supporting resources.
-- `.agents/workflows/` contains named operational procedures such as deployment, UI checks, testing, onboarding, and documentation updates.
+- `.agents/workflows/` contains named operational procedures such as deployment, UI checks, testing, onboarding, documentation updates, and session handoffs.
 - Skills and workflows may reference this file but must not duplicate or redefine its global policies.
 - Keep only workflows relevant to the active technology profile after initialization.
 - Document profile-specific prerequisites inside the relevant workflow.

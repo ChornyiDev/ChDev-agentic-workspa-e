@@ -77,6 +77,18 @@ workflows:
     path: workflows/harvest-telemetry.md
     profiles: [all]
 
+  resume-session:
+    version: 0.1.0
+    source: local
+    path: workflows/resume-session.md
+    profiles: [all]
+
+  save-session:
+    version: 0.1.0
+    source: local
+    path: workflows/save-session.md
+    profiles: [all]
+
   test-and-fix:
     version: 0.1.0
     source: local
