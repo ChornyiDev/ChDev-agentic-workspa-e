@@ -12,6 +12,7 @@ This is the **Single Source of Truth** for AI behavior, architectural decisions,
 ## 0. Language Requirement
 **CRITICAL:** ALL technical documentation, roadmap files, architectural plans, milestones, and code comments MUST be written exclusively in **English**.
 Keep workspace instructions aligned to this standard for cross-IDE and cross-agent interoperability.
+- **Тексти для людей:** Документацію, презентації, листи, специфікації та інші матеріали, призначені для читання людьми, готуй із використанням скіла humanizer. Завантажуй його перед написанням або редагуванням таких текстів і дотримуйся його рекомендацій, зберігаючи точність, зміст.
 
 ---
 

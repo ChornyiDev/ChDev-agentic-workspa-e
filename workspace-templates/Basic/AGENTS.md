@@ -32,6 +32,7 @@ engineering rules, safety constraints, and the active technology profile.
 - Propose architecture before executing large or high-risk changes.
 - Surface assumptions, risks, edge cases, security concerns, and performance implications.
 - Use terminology native to the active technology profile.
+- **Тексти для людей:** Документацію, презентації, листи, специфікації та інші матеріали, призначені для читання людьми, готуй із використанням скіла humanizer. Завантажуй його перед написанням або редагуванням таких текстів і дотримуйся його рекомендацій, зберігаючи точність, зміст.
 
 ## 3. Agent Role and Authority
 
